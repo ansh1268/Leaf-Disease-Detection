@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { jsPDF } from "jspdf";
-import "./App.css";
-
+import "../App.css";
 function App() {
   // ================================
   // STATES
