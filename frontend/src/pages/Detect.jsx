@@ -1112,14 +1112,14 @@ function Detect() {
         // BACKEND REQUEST
         // ---------------------------------
 
-        const response =
-          await fetch(
-            "http://127.0.0.1:8000/predict",
-            {
-              method: "POST",
-              body: formData
-            }
-          );
+const response =
+  await fetch(
+    "https://leaf-disease-detection-8xg0.onrender.com/predict",
+    {
+      method: "POST",
+      body: formData
+    }
+  );
 
 
         // ---------------------------------
