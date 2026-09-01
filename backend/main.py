@@ -252,7 +252,7 @@ def check_image_quality(image):
         ).var()
     )
 
-    if blur_score < 80:
+    if blur_score < 20:
         return {
             "valid": False,
             "message": "Image appears blurry. Please capture a sharper leaf image."
