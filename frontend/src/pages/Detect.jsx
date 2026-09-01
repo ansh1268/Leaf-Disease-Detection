@@ -237,12 +237,12 @@ function App() {
       );
 
       const response = await fetch(
-        "https://leaf-disease-detection-1-2026.onrender.com/predict",
-        {
-          method: "POST",
-          body: formData
-        }
-      );
+  "https://leaf-disease-backend-2026.onrender.com/predict",
+  {
+    method: "POST",
+    body: formData,
+  }
+);
 
       const data = await response.json();
 
